@@ -1,0 +1,20 @@
+{
+  "welcome": "Welcome to Workflex Assessment API",
+  "errors": {
+    "user_not_found": "User not found",
+    "unauthorized": "Unauthorized access",
+    "invalid_token": "Invalid MFA token",
+    "mfa_not_enabled": "MFA setup not initiated",
+    "email_required": "Email is required",
+    "email_token_required": "Email and token are required"
+  },
+  "success": {
+    "mfa_enabled": "MFA enabled successfully",
+    "users_imported": "Users imported successfully"
+  },
+  "compliance": {
+    "visa": "Visa",
+    "work_permit": "Work Permit",
+    "tax_document": "Tax Document"
+  }
+}

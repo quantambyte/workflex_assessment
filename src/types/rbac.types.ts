@@ -1,0 +1,21 @@
+export enum Role {
+  HR_ADMIN = "HR_ADMIN",
+  REGIONAL_MANAGER = "REGIONAL_MANAGER",
+  MANAGER = "MANAGER",
+  EMPLOYEE = "EMPLOYEE",
+}
+
+export enum Region {
+  US = "US",
+  UK = "UK",
+  DE = "DE",
+  FR = "FR",
+  GLOBAL = "GLOBAL",
+}
+
+export enum Permission {
+  VIEW_ALL_USERS = "VIEW_ALL_USERS",
+  VIEW_REGIONAL_USERS = "VIEW_REGIONAL_USERS",
+  MANAGE_USERS = "MANAGE_USERS",
+  VIEW_REPORTS = "VIEW_REPORTS",
+}

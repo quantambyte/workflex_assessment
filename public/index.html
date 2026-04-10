@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workflex Assessment Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Workflex Assessment</h1>
+        <p class="subtitle">Project Status & API Dashboard</p>
+      </header>
+
+      <main>
+        <section class="status-card">
+          <h2>Project Road Map</h2>
+          <div class="checklist">
+            <div class="task-group">
+              <h3>P0: Critical Blockers</h3>
+              <div class="task-item completed">
+                <span class="checkbox">✓</span>
+                <span class="task-name">SAML SSO Integration</span>
+              </div>
+              <div class="task-item completed">
+                <span class="checkbox">✓</span>
+                <span class="task-name">MFA / 2FA Security</span>
+              </div>
+            </div>
+
+            <div class="task-group">
+              <h3>P1: High-Risk & High-Friction</h3>
+              <div class="task-item completed">
+                <span class="checkbox">✓</span>
+                <span class="task-name">Bulk Employee Import Utility</span>
+              </div>
+              <div class="task-item completed">
+                <span class="checkbox">✓</span>
+                <span class="task-name"
+                  >Automated Compliance Expiration Alerts</span
+                >
+              </div>
+              <div class="task-item completed">
+                <span class="checkbox">✓</span>
+                <span class="task-name">Role-Based Access Control (RBAC)</span>
+              </div>
+            </div>
+
+            <div class="task-group">
+              <h3>P2: Strategic & Contractual</h3>
+              <div class="task-item completed">
+                <span class="checkbox">✓</span>
+                <span class="task-name">Internationalization</span>
+              </div>
+              <div class="task-item completed">
+                <span class="checkbox">✓</span>
+                <span class="task-name">Global Compliance Dashboard</span>
+              </div>
+              <div class="task-item completed">
+                <span class="checkbox">✓</span>
+                <span class="task-name">HRIS Sync & Public API</span>
+              </div>
+            </div>
+
+            <div class="task-group">
+              <h3>P3: Operational Enhancements</h3>
+              <div class="task-item">
+                <span class="checkbox"></span>
+                <span class="task-name">Mobile-Responsive Portal</span>
+              </div>
+              <div class="task-item">
+                <span class="checkbox"></span>
+                <span class="task-name">Audit Logging</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="links">
+          <a href="/api-docs" class="btn">View API Documentation (Swagger)</a>
+          <a href="/users" class="btn secondary" id="test-api"
+            >Test API (Users)</a
+          >
+        </section>
+      </main>
+
+      <footer>
+        <p>&copy; 2026 Workflex Assessment. Built with Node.js & TypeScript.</p>
+      </footer>
+    </div>
+    <script>
+      document.getElementById("test-api").addEventListener("click", (e) => {
+        console.log("Testing Users API...");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "welcome": "Bienvenue sur l'API Workflex Assessment",
+  "errors": {
+    "user_not_found": "Utilisateur non trouvé",
+    "unauthorized": "Accès non autorisé",
+    "invalid_token": "Jeton MFA invalide",
+    "mfa_not_enabled": "Configuration MFA non initiée",
+    "email_required": "L'email est requis",
+    "email_token_required": "L'email et le jeton sont requis"
+  },
+  "success": {
+    "mfa_enabled": "MFA activé avec succès",
+    "users_imported": "Utilisateurs importés avec succès"
+  },
+  "compliance": {
+    "visa": "Visa",
+    "work_permit": "Permis de travail",
+    "tax_document": "Document fiscal"
+  }
+}

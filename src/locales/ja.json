@@ -1,0 +1,20 @@
+{
+  "welcome": "Workflex Assessment APIへようこそ",
+  "errors": {
+    "user_not_found": "ユーザーが見つかりません",
+    "unauthorized": "認証されていないアクセス",
+    "invalid_token": "無効なMFAトークン",
+    "mfa_not_enabled": "MFAセットアップが開始されていません",
+    "email_required": "メールアドレスが必要です",
+    "email_token_required": "メールアドレスとトークンが必要です"
+  },
+  "success": {
+    "mfa_enabled": "MFAが正常に有効化されました",
+    "users_imported": "ユーザーが正常にインポートされました"
+  },
+  "compliance": {
+    "visa": "査証（ビザ）",
+    "work_permit": "就労許可証",
+    "tax_document": "税務書類"
+  }
+}
